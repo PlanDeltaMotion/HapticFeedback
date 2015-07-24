@@ -305,14 +305,16 @@ int main() {
     while (1) {
 
         if(InData0[1] > 0){
-            if(InData0[2] == 1){
-                PDC2 = (unsigned int)(InData0[1]* 2 *.5914);
-                PDC1 = 0;
-            }
-            else{
-                PDC1 = (unsigned int)(InData0[1]* 2* .5914);
-                PDC2 = 0;
-            }
+//            if(InData0[2] == 1){
+//                PDC2 = (unsigned int)(InData0[1]* 2 *.5914);
+//                PDC1 = 0;
+//            }
+//            else{
+//                PDC1 = (unsigned int)(InData0[1]* 2* .5914);
+//                PDC2 = 0;
+//            }
+
+
         }
 
         if (InData0[3] == 1) {
